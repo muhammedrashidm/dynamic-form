@@ -1,0 +1,22 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+
+}
+
+body {
+
+  background: #e2e8ed;
+
+}
+
+select {
+  background: #ecf0f3;
+  width: 200px;
+  border: none;
+  border-radius: 20px;
+  border: none;
+  padding: 10px 20px 10px 20px;
+}
