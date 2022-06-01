@@ -1,5 +1,4 @@
 import React from "react";
-import classes from "./Form.module.css";
 import InputElement from "./InputElement";
 const Form = ({ schema }) => {
   let fields = schema.fields
@@ -9,7 +8,7 @@ const Form = ({ schema }) => {
     {
       fields.map((field, i) => {
         return <div style={{ order: field.order }} key={i}>
-          <InputElement field={field} key={i} />
+          <InputElement field={field} />
         </div>
 
       })

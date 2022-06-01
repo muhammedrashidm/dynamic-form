@@ -3,7 +3,7 @@ import classes from './Form.module.css';
 
 
 const InputElement = ({ field }) => {
-  const createInput = (field) => {
+  const createInput = () => {
     if (field.type === "dropdown") {
       return (<div
         className={classes.item_container}
@@ -34,11 +34,7 @@ const InputElement = ({ field }) => {
       </div>)
   }
 
-  return (
-
-    createInput(field)
-
-  );
+  return createInput();
 };
 
 
